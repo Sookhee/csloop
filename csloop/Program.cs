@@ -23,6 +23,20 @@ namespace csloop
             {
                 Console.WriteLine(item);
             }
+
+            string input = "Potato Tomato";
+            Console.WriteLine(input.ToUpper());
+            Console.WriteLine(input.ToLower());
+
+            input = "감자 고구마 토마토";
+            string[] inputs = input.Split(new Char[] { ' ' });
+            foreach(var item in inputs)
+            {
+                Console.WriteLine(item);
+            }
+
+            string[] arr = { "감자", "고구마", "토마토", "가지" };
+            Console.WriteLine(string.Join(", ", arr));
         }
     }
 }
