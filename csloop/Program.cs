@@ -10,13 +10,19 @@ namespace csloop
     {
         static void Main(string[] args)
         {
-            long start = DateTime.Now.Ticks;
-            long count = 0;
-            while(start + (10000000) > DateTime.Now.Ticks)
+            //long start = DateTime.Now.Ticks;
+            //long count = 0;
+            //while(start + (10000000) > DateTime.Now.Ticks)
+            //{
+            //    count++;
+            //}
+            //Console.WriteLine(count + "만큼 반복했습니다");
+
+            string[] array = { "사과", "배", "포도", "딸기", "바나나" };
+            foreach(string item in array)
             {
-                count++;
+                Console.WriteLine(item);
             }
-            Console.WriteLine(count + "만큼 반복했습니다");
         }
     }
 }
