@@ -72,10 +72,18 @@ namespace csloop
             //int[] array3 = int[]{ 1, 2, 3}; //에러
             //int[] array4 = { 1, 2, 3 };
 
-            // 실습일지 4번
-            for(int i = 0; i < 20; i = i + 2)
+            //// 실습일지 4번
+            //for(int i = 0; i < 20; i = i + 2)
+            //{
+            //    Console.Write("출력");
+            //}
+
+            // 실습일지 5번
+            int i = 0;
+            while(i < 10)
             {
                 Console.Write("출력");
+                i++;
             }
 
         }
