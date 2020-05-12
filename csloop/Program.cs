@@ -59,11 +59,23 @@ namespace csloop
             //    x++;    
             //}
 
-            // 실습일지 2번
-            int[] array = new int[10];
-            foreach(var item in array)
+            //// 실습일지 2번
+            //int[] array = new int[10];
+            //foreach(var item in array)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            // 실습일지 3번
+            //int[] array1 = new int[20];
+            //int[] array2 = new int[3] { 1, 2, 3 };
+            //int[] array3 = int[]{ 1, 2, 3}; //에러
+            //int[] array4 = { 1, 2, 3 };
+
+            // 실습일지 4번
+            for(int i = 0; i < 20; i = i + 2)
             {
-                Console.WriteLine(item);
+                Console.Write("출력");
             }
 
         }
